@@ -72,6 +72,7 @@ namespace DataScienceDev
             // Prints all users in console
             Console.WriteLine("Print all users in dictionary");
             foreach (var userId in dictionary) { Console.WriteLine("key: " + userId.Key); }
+            //It works wel with github
         }
 
         public class UserPreferance
